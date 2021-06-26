@@ -534,6 +534,8 @@ p {
 .team-list__title {
   color: var(--title-text-color);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .team-list__item {
