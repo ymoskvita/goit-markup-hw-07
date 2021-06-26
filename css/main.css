@@ -51,15 +51,6 @@ p {
   margin: 0;
 }
 
-.title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -441,6 +432,10 @@ p {
   text-align: center;
 }
 
+.section--bg-color-secondary {
+  background-color: var(--background-color-secondary);
+}
+
 .feature-list {
   display: flex;
   flex-wrap: wrap;
@@ -512,10 +507,6 @@ p {
 
 .about-list__item + .about-list__item {
   margin-left: 30px;
-}
-
-.section--bg-color-secondary {
-  background-color: var(--background-color-secondary);
 }
 
 .caption {

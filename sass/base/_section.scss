@@ -11,4 +11,8 @@
 
     text-align: center;
   }
+
+  &--bg-color-secondary {
+    background-color: var(--background-color-secondary);
+  }
 }
